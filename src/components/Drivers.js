@@ -18,9 +18,11 @@ class Drivers extends React.Component {
                 <table >
 
                     <thead>
-                        <th>Name</th>
-                        <th>Date of Birth</th>
-                        <th>Nationality</th>
+                        <tr>
+                            <th>Name</th>
+                            <th>Date of Birth</th>
+                            <th>Nationality</th>
+                        </tr>
                     </thead>
                     <tbody>
                         {this.props.drivers.map((driver, i) => {

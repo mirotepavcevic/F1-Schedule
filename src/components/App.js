@@ -13,8 +13,6 @@ const App = () => {
         <Router>
             <div className='main'>
                 <div className='sidebar'>
-                <div className='main'>
-                <div className='sidebar'>
                     <img src='./img/praviLogo.jpg' />
                     <ul className='links'>
                         <li className='link'>
@@ -43,13 +41,9 @@ const App = () => {
                         </li>
 
                     </ul>
-
-                </div>
-
-            </div>
                 </div>
                 <div className='content' >
-                    <Route path='/' exact component={Home}/>
+                    <Route path='/' exact component={Home} />
                     <Route path='/drivers' exact component={Drivers} />
                     <Route path='/constructors' exact component={Constructors} />
                     <Route path='/races' exact component={Races} />
