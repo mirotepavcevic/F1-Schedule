@@ -1,0 +1,3 @@
+export const FETCH_RACE = 'FETCH_RACE';
+export const FETCH_DRIVER = 'FETCH_DRIVER';
+export const FETCH_CONSTRUCTOR = 'FETCH_CONSTRUCTOR';

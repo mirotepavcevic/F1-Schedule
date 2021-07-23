@@ -1,0 +1,153 @@
+/* font-family: 'Audiowide', cursive; */
+/* font-family: 'Open Sans', sans-serif; */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: inherit;
+	padding: inherit;
+	font-family: "Open Sans", sans-serif;
+	min-height: 100vh;
+	
+}
+
+.main {
+	height: 100%;
+}
+
+.sidebar {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	width: 15%;
+	height: 100vh;
+	background-color: #333;
+	border-right: 2px solid rgb(24, 24, 24);
+}
+
+.sidebar img {
+	width: 80%;
+    margin: 26px;
+	height: auto;
+    border-radius: 26px;
+}
+
+.links {
+	list-style: none;
+}
+
+.link a {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	text-decoration: none;
+	height: 80px;
+	border-bottom: 2px solid #404040;
+	border-radius: 2px;
+	margin-top: 0;
+	margin-right: 28px;
+	padding: 0;
+}
+
+.link a:nth-child(1) {
+	border-top: none;
+}
+
+.link p {
+	font-family: "Audiowide", cursive;
+	color: white;
+	text-shadow: 0px 3px 5px #000;
+	font-style: italic;
+	text-decoration: none;
+	font-size: 1.3rem;
+	font-style: italic;
+}
+
+.link img {
+	display: block;
+	width: 60px;
+	color: #333;
+	filter: invert(100%);
+}
+
+.content {
+	float: right;
+	width: 85%;
+		
+}
+
+
+
+.welcome-content {
+	color: #fff;
+	font-family: "Audiowide", cursive;
+	text-shadow: 0px 3px 5px #000;
+	font-style: italic;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.5rem;
+}
+
+/* DRIVERS TABLE START */
+
+.drivers {
+	background-color: #9ca0a6;
+	min-height: 100vh;
+	padding-bottom: 40px;
+	color: #717171;
+	font-weight: bold;
+	
+	
+    
+}
+
+.drivers h2{
+	font-family: "Audiowide", cursive;
+	font-size: 3rem;
+	color: white;
+	text-shadow: 0px 3px 5px #000;
+	font-style: italic;
+	padding-left: 2rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	
+}
+
+.drivers table{
+	margin-left: 30px;
+	width: 95%;
+	margin-bottom: 40px;
+	background-color: #fff;
+	border-radius: 26px;
+    
+}
+
+.drivers tr:nth-child(even){
+	background-color: #f5f4ea;
+	border-radius: 26px;
+}
+
+
+
+.drivers table thead th{
+	background-color: #c7c6c1;
+	color: white;
+	text-shadow: 0px 3px 5px #000;
+	font-style: italic;
+	border-radius: 26px;
+	text-align: start;
+	padding: 10px;
+	font-size: 1.1rem;
+}
+
+.drivers table tbody td {
+	padding: 10px;
+	border-radius: 26px;
+}
+
