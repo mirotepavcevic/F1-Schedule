@@ -6,6 +6,7 @@ class Races extends React.Component {
 
     componentDidMount() {
         this.props.fetchRace();
+        
     }
 
     renderList() {
@@ -15,10 +16,12 @@ class Races extends React.Component {
                 <h2>Drivers Championship 1985</h2>
                 <table >
                     <thead>
-                        <th>Race</th>
-                        <th>Locality</th>
-                        <th>Country</th>
-                        <th>Date</th>
+                        <tr>
+                            <th>Race</th>
+                            <th>Locality</th>
+                            <th>Country</th>
+                            <th>Date</th>
+                        </tr>
                     </thead>
                     <tbody>
                         {this.props.races.map((race, i) => {
