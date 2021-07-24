@@ -1,12 +1,10 @@
 {
   "name": "f1_schedule",
-  "homepage": "https://mirotepavcevic.github.io/",
+  "homepage": "http://mirotepavcevic.github.io/f1_schedule",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "webpack serve --open --hot --mode development",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
