@@ -24,8 +24,9 @@ body {
 	flex-direction: column;
 	width: 15%;
 	height: 100vh;
-	background-color: #333;
-	border-right: 2px solid rgb(24, 24, 24);
+	background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #9ca0a6, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #9ca0a6, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .sidebar img {
@@ -97,7 +98,10 @@ body {
 /* DRIVERS TABLE START */
 
 .drivers {
-	background-color: #9ca0a6;
+	background: #555454;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #9ca0a6, #555454);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #9ca0a6, #555454); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/* background-color: #9ca0a6; */
 	min-height: 100vh;
 	padding-bottom: 40px;
 	color: #717171;
